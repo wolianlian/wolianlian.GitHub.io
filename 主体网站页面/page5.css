@@ -1,0 +1,36 @@
+/* 设置第五页的样式 */
+.page5{
+    background-image: url(/我的网站/images/cool-background\ \(3\).png);
+}
+.page5 .form{
+    margin: 100px auto 20px;
+    display: flex;
+    width: 75%;
+    height: 70%;
+    background-color: rgba(255,255,255);
+}
+.page5 .form .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+}
+.page5 .form .left img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.page5 .form .right{
+    width: 40%;
+    height: 100%;
+}
+
+.footer{
+    color: white;
+    width: 100%;
+    height: 30%;
+    background-color: #333;
+}

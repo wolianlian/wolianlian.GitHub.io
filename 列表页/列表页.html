@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../列表页/列表页.css">
+</head>
+<body>
+    <div class="common">
+        <h1>常见糕点</h1>
+        <ul class="list">
+            <li>
+                <a href=""><img src="../列表页/images/马拉糕.jpg" alt=""></a>
+                <h2>马拉糕</h2>
+            </li>
+            <li>
+                <a href=""><img src="../列表页/images/芋头糕.jpg" alt=""></a>
+                <h2>芋头糕</h2>
+            </li>
+            <li>
+                <a href=""><img src="../列表页/images/黄金糕.jpg" alt=""></a>
+                <h2>黄金糕</h2>
+            </li>
+            <li>
+                <a href=""><img src="../列表页/images/杏仁饼.jpg" alt=""></a>
+                <h2>杏仁饼</h2>
+            </li>
+            <li>
+                <a href=""><img src="../列表页/images/老婆饼.jpg" alt=""></a>
+                <h2>老婆饼</h2>
+            </li>
+            <li>
+                <a href=""><img src="../列表页/images/萝卜糕.jpg" alt=""></a>
+                <h2>萝卜糕</h2>
+            </li>
+           
+        </ul>
+    </div>
+    <div class="recommand">
+        <h1>推荐糕点</h1>
+        <ul class="list">
+            <li>
+                <a href=""><img src="../列表页/images/钵仔糕.webp" alt=""></a>
+                <h2>钵仔糕</h2>
+            </li>
+            <li>
+                <a href=""><img src="../列表页/images/栾樨饼.jpg" alt=""></a>
+                <h2>栾樨饼</h2>
+            </li>
+            <li>
+                <a href=""><img src="../列表页/images/马蹄糕.jpg" alt=""></a>
+                <h2>马蹄糕</h2>
+            </li>
+
+        </ul>
+    </div>
+    <div class="form">
+        <input type="button" value="添加" id="btn1">
+        <input type="button" value="删除">
+    </div>
+
+
+    <script>
+        var commonlist=document.querySelector(".common .list")
+        var btn1=document.getElementById("btn1")
+        btn1.onclick=function(){
+            commonlist.removeChild(commonlist.lastElementChild)
+
+        }
+
+    </script>
+</body>
+</html>
